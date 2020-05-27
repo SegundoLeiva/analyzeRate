@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>cells-analize-rate-pfco demo</title>
+    <script src="../build/webcomponents-loader.js"></script>
+    <script src="../build/scoping-shim.min.js"></script>
+    <script src="../build/apply-shim.min.js"></script>
+    <script src="../build/custom-style-interface.min.js"></script>
+    <script>
+      {
+        const _customElementsDefine = window.customElements.define;
+        window.customElements.define = (name, cl, conf) => {
+          if (customElements.get(name)) {
+            console.warn(`${name} has been defined twice`);
+          } else {
+            _customElementsDefine.call(window.customElements, name, cl, conf);
+          }
+        };
+      }
+    </script>
+
+<script>
+  window.I18nMsg = window.I18nMsg || {};
+  window.I18nMsg.url = '../locales/';
+
+  window.AppConfig = {
+          "services": {
+              "host":"data",
+              "quotation": {
+                "host": "data",
+                "endPoints": {
+                  "parameters": "quotations/v1/parameters",
+                  "products": "quotations/v1/products",
+                  "simulateRate": "quotations/v1/rates/simulate",
+                  "calculaterate": "quotations/v1/rates",
+                  "request": "quotations/v1/requests",
+                  "simulateAnalyseRate": "quotations/v1/analyze-rate/simulate",
+                  "commitments": "quotations/v1/commitments"
+                }
+              }
+          },
+          "events": {
+            "globalInvokeRequest": "global-invoke-request",
+            "eventCreateAnalyzeRate": "create-analyze-rate"
+          }
+        };
+    </script>
+
+    <script defer src="../build/component.js"></script>
+    <script type="module" crossorigin="use-credentials">
+      import '../build/demo-build.js';
+    </script>
+  </head>
+
+  <body>
+    <cells-demo-helper resolution="tablet" events = '["create-analyze-rate"]'>
+      <cells-demo-case description="Default specs">
+        <template>
+          <cells-panel-pfco title="Datos para la evaluación de la TEA" iconPanel = "cashregister" shadow headerBg = "#f4f4f4" titleColor = "#121212"></cells-panel-pfco>
+          <cells-analize-rate-pfco 
+                        hostQuotation = "data"
+                        pathCreate = "quotations/v1/analyze-rate"
+                        eventCreateAnalyzeRate = "create-analyze-rate"
+                        keyProductResponse = "data">
+          </cells-analize-rate-pfco>
+          <script>
+            document.addEventListener('WebComponentsReady', async () => {
+              let dataGetQuotation = await fetch('data/get-quotation-request.json').then(response => response.json());
+              document.querySelector('cells-analize-rate-pfco').data = dataGetQuotation.data;
+
+              let evaluar = document.querySelector('cells-analize-rate-pfco');            
+              evaluar.addEventListener('global-invoke-request', async (e) => {
+                  let nameEvent = e.detail.name;                 
+                  if(nameEvent === 'create-analyze-rate') {
+                    let simulate = await fetch(`${e.detail.host}/create-analyze-rate.json`).then(response=>response.json());
+                    e.detail.onSuccess(simulate);
+                  }
+
+              });
+            });
+         </script>
+        </cells-panel-pfco>
+        </template>
+      </cells-demo-case>
+    </cells-demo-helper>
+  </body>
+</html>

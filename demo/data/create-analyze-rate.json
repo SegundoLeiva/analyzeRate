@@ -1,0 +1,156 @@
+{
+    "data": {
+        "id": "145098",
+        "interestRates": {
+            "effectiveRates": [
+                {
+                    "id": "APPROVED_ADJUSTED_TEA",
+                    "percentage": 0
+                }
+            ]
+        },
+        "financialIndicators": [
+            {
+                "id": "PROFITABILITY_FOR_RISK_OF_REQUESTED_TEA",
+                "value": "0.2177"
+            }
+        ],
+        "liquidityIndicators": [
+            {
+                "id": "LIQUIDITY_MARGIN_LOST",
+                "detail": {
+                    "amount": 70344.9670166667
+                }
+            },
+            {
+                "id": "ADDITIONAL_SPREAD_OF_REQUESTED_TEA",
+                "detail": {
+                    "percentage": 0.005
+                }
+            },
+            {
+                "id": "MINIMUM_SPREAD_OF_REQUESTED_TEA",
+                "detail": {
+                    "percentage": 0.01
+                }
+            },
+            {
+                "id": "COMMERCIAL_SPREAD_OF_REQUESTED_TEA",
+                "detail": {
+                    "percentage": 0.0438
+                }
+            },
+            {
+                "id": "SPREAD_OF_OPERATION",
+                "detail": {
+                    "percentage": 0.1657
+                }
+            },
+            {
+                "id": "BENEFIT_BEFORE_TAX",
+                "detail": {
+                    "percentage": 0.0538
+                }
+            },
+            {
+                "id": "SPREAD_FINANTIAL",
+                "detail": {
+                    "percentage": 0.2
+                }
+            },
+            {
+                "id": "SPREAD_REFERENTIAL",
+                "detail": {
+                    "percentage": 0.005
+                }
+            }
+        ],
+        "fees": [
+            {
+                "feeType": {
+                    "id": "RORC_CLIENT"
+                },
+                "detail": {
+                    "percentage": 5.875
+                }
+            },
+            {
+                "feeType": {
+                    "id": "RORC_OPERATION"
+                },
+                "detail": {
+                    "percentage": 0.3459
+                }
+            },
+            {
+                "feeType": {
+                    "id": "RORC_UPDATED"
+                },
+                "detail": {
+                    "percentage": 0.3743
+                }
+            },
+            {
+                "feeType": {
+                    "id": "RORC_VARIATION"
+                },
+                "detail": {
+                    "percentage": -5.5007
+                }
+            },
+            {
+                "feeType": {
+                    "id": "RORC_MODEL"
+                },
+                "detail": {
+                    "percentage": 0.47411
+                }
+            },
+            {
+                "feeType": {
+                    "id": "RORC_APPROVED"
+                },
+                "detail": {
+                    "percentage": 0.3459
+                }
+            }
+        ],
+        "products": [
+            {
+                "id": "2",
+                "name": "INCR. SM VISTA + AHORRO",
+                "committedData": {
+                    "description": "IMPORTE SOLES",
+                    "unitValue": {
+                        "amount": 0,
+                        "currency": "PEN",
+                        "unitValueDetailType": "AMOUNT"
+                    },
+                    "effectiveTime": {
+                        "unit": "DAY",
+                        "number": 30
+                    },
+                    "classification": "SUGGESTED"
+                }
+            },
+            {
+                "id": "2",
+                "name": "INCR. SM VISTA + AHORRO",
+                "committedData": {
+                    "description": "IMPORTE SOLES",
+                    "unitValue": {
+                        "amount": 0,
+                        "currency": "PEN",
+                        "unitValueDetailType": "AMOUNT"
+                    },
+                    "effectiveTime": {
+                        "unit": "DAY",
+                        "number": 60
+                    },
+                    "classification": "SUGGESTED"
+                }
+            }
+        ],
+        "cutOffPeriod": "202002"
+    }
+}

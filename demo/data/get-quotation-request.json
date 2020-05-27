@@ -1,0 +1,497 @@
+{
+    "data": {
+        "id": "39624",
+        "status": {
+            "id": "OPEN",
+            "name": "ABIERTO"
+        },
+        "participant": {
+            "id": "09943510",
+            "identityDocuments": [
+                {
+                    "documentType": {
+                        "id": "DNI"
+                    },
+                    "documentNumber": "00019062"
+                }
+            ],
+            "situation": {
+                "id": "ACTIVE"
+            },
+            "totalDaysAsCustomer": 8379,
+            "bank": {
+                "branch": {
+                    "id": "0233",
+                    "name": "7 DE JUNIO"
+                }
+            },
+            "segment": {
+                "subSegment": {
+                    "id": "",
+                    "name": "",
+                    "partitions": [
+                        {
+                            "id": "RETAIL_BANKING",
+                            "value": ""
+                        }
+                    ]
+                },
+                "id": "86600",
+                "name": "RETAIL"
+            },
+            "bureau": {
+                "score": 8.67451,
+                "id": "G5"
+            },
+            "totalBanks": 0,
+            "delinquency": {
+                "maxOverdueDays": 0
+            },
+            "riskTag": "",
+            "grossMargin": {
+                "percentage": "56.0"
+            },
+            "isDecisionMaker": false,
+            "propensityLevel": 0,
+            "relatedFamilies": 0,
+            "membershipDate": "1995-06-21T00:00:00.000-0500",
+            "detail": {
+                "firstName": "LIONEL OSWALDO",
+                "lastName": "LEYTON",
+                "secondLastName": "REYES",
+                "isDecisionMaker": false,
+                "bankingData": {
+                    "adjustedBanking": {
+                        "id": "86600",
+                        "name": "MIN"
+                    },
+                    "id": "2664",
+                    "name": "MIN"
+                },
+                "income": {
+                    "range": "1000-2000"
+                },
+                "isReceiveBankPayments": true,
+                "propensity": 0,
+                "liabilities": [
+                    {
+                        "id": "DEBT_MAX_OB",
+                        "amount": 791.5,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEBT_CORPORATIVE",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEUDA_GRAN_EMPRESA",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEUDA_MEDIANA_EMPRESA",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEBT_OTROS_TIPOS",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEDID_DIRECTA_SF",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEBD_DIRECTA_BBVA",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEUDA_MAX_COMERCIAL_RCC",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "DEBT_MAX_PERSONAL_RCC",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "SALDO_DEUDA_INDIRECTA_SF",
+                        "amount": 0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "SALDO_DEUDA_INDIRECTA_BANK",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "SALDO_MEDIO_PASIVO",
+                        "amount": 340.0,
+                        "currency": "PEN"
+                    },
+                    {
+                        "id": "MEDIUM_COUNTS_BALANCE",
+                        "amount": 0.0,
+                        "currency": "PEN"
+                    }
+                ],
+                "economicData": {
+                    "workPlace": {
+                        "code": "21539138",
+                        "name": "LOGISTICA SELVA SAC"
+                    }
+                }
+            },
+            "taxpayer": {
+                "taxpayerType": {
+                    "id": "NATURAL_PERSON"
+                }
+            }
+        },
+        "quotations": [
+            {
+                "status": {
+                    "id": "REQUESTED",
+                    "name": "SOLICITADA"
+                },
+                "validityDate": "2020-05-21T13:53:34.498-0500",
+                "id": "47624",
+                "version": "1",
+                "rate": {
+                    "id": "144098"
+                },
+                "interestRates": {
+                    "effectiveRates": [
+                        {
+                            "id": "ADJUSTED_MODEL_TEA",
+                            "percentage": 0.014
+                        },
+                        {
+                            "id": "APPROVED_ADJUSTED_TEA",
+                            "percentage": 0
+                        },
+                        {
+                            "id": "TEA_OF_MODEL",
+                            "percentage": 0.1865
+                        },
+                        {
+                            "id": "MINIMUM_TEA",
+                            "percentage": 0.2005
+                        },
+                        {
+                            "id": "SUGGESTED_TEA",
+                            "percentage": 0.215
+                        },
+                        {
+                            "id": "REQUESTED_TEA",
+                            "percentage": 0.15
+                        },
+                        {
+                            "id": "MINIMUM_TEA_OF_MODEL",
+                            "percentage": 0.2005
+                        },
+                        {
+                            "id": "SUGGESTED_TEA_OF_MODEL",
+                            "percentage": 0.215
+                        },
+                        {
+                            "id": "TEA_OF_AUTONOMY",
+                            "percentage": 0.156221
+                        }
+                    ]
+                },
+                "comment": "ENVIANDO",
+                "product": {
+                    "id": "1",
+                    "requestedAmount": {
+                        "amount": 43800,
+                        "currency": "PEN"
+                    },
+                    "name": "PLD",
+                    "guarantee": {
+                        "coverage": 110,
+                        "classification": {
+                            "id": "42",
+                            "name": "SIN GARANTIA"
+                        }
+                    },
+                    "contractingModality": {
+                        "id": "1",
+                        "name": "Nuevo"
+                    },
+                    "term": {
+                        "frequency": {
+                            "id": "MONTHLY",
+                            "name": "MES"
+                        },
+                        "termNumber": 48
+                    }
+                },
+                "businessAgents": [
+                    {
+                        "position": {
+                            "id": "CZ2",
+                            "name": "ESPEC PRECIOS BANCA MIN"
+                        },
+                        "id": "P121319",
+                        "firstName": "JORGE ENRIQUE CALIDAD",
+                        "lastName": "LUNA VICTORIA CALIDAD",
+                        "secondLastName": "PALZA CALIDAD",
+                        "workTeam": {
+                            "id": "ANA_PRE_MIN",
+                            "name": "Analista de Precios Minorista"
+                        },
+                        "classification": {
+                            "involvements": [
+                                {
+                                    "involvementType": {
+                                        "id": "ASSIGNED",
+                                        "description": "Usuario asignado a la cotización"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "position": {
+                            "id": "B25",
+                            "name": "EJECUTIVO BANCA NEGOCIOS"
+                        },
+                        "id": "P011989",
+                        "firstName": "SANDRA NIRSA",
+                        "lastName": "ARENAS",
+                        "secondLastName": "ALVAREZ",
+                        "workTeam": {
+                            "id": "EJE_MIN",
+                            "name": "Ejecutivo Minorista"
+                        },
+                        "classification": {
+                            "involvements": [
+                                {
+                                    "involvementType": {
+                                        "id": "REGISTERED",
+                                        "description": "Usuario que registra la cotización"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "bank": {
+                    "branch": {
+                        "id": "0190",
+                        "name": "OF. C.C.SAN MIGUEL"
+                    }
+                },
+                "disbursement": {
+                    "status": {
+                        "id": "PENDING",
+                        "description": "PENDIENTE"
+                    }
+                },
+                "profitabilityIndicators": [
+                    {
+                        "id": "PROFITABILITY_FOR_RISK_OF_MODEL_TEA",
+                        "percentage": 0.2198
+                    },
+                    {
+                        "id": "PROFITABILITY_FOR_RISK_OF_REQUESTED_TEA",
+                        "percentage": 0.0153
+                    },
+                    {
+                        "id": "BENEFIT_BEFORE_TAX_OF_OPERATION",
+                        "percentage": 0.0543
+                    },
+                    {
+                        "id": "BENEFIT_BEFORE_TAX_OF_REQUESTED_TEA",
+                        "percentage": 0.0038
+                    },
+                    {
+                        "id": "BAI_TEA_MINIMUM",
+                        "percentage": 0.01
+                    }
+                ],
+                "liquidityIndicators": [
+                    {
+                        "id": "SPREAD_MINIMUM_LIMIT",
+                        "detail": {
+                            "percentage": 0.2005
+                        }
+                    },
+                    {
+                        "id": "ADDITIONAL_SPREAD",
+                        "detail": {
+                            "percentage": 0.005
+                        }
+                    },
+                    {
+                        "id": "MINIMUM_SPREAD",
+                        "detail": {
+                            "percentage": 0.01
+                        }
+                    },
+                    {
+                        "id": "COMMERCIAL_SPREAD",
+                        "detail": {
+                            "percentage": 0.061
+                        }
+                    },
+                    {
+                        "id": "SPREAD_OF_OPERATION",
+                        "detail": {
+                            "percentage": 0.1662
+                        }
+                    },
+                    {
+                        "id": "ADDITIONAL_SPREAD_OF_REQUESTED_TEA",
+                        "detail": {
+                            "percentage": 0.005
+                        }
+                    },
+                    {
+                        "id": "COMMERCIAL_SPREAD_OF_REQUESTED_TEA",
+                        "detail": {
+                            "percentage": 0
+                        }
+                    },
+                    {
+                        "id": "MINIMUM_SPREAD_OF_REQUESTED_TEA",
+                        "detail": {
+                            "percentage": 0.0038
+                        }
+                    },
+                    {
+                        "id": "SPREAD_OF_REQUESTED_TEA",
+                        "detail": {
+                            "percentage": 0.1157
+                        }
+                    }
+                ],
+                "fees": [
+                    {
+                        "feeType": {
+                            "id": "EXPECTED_LOSS"
+                        },
+                        "detail": {
+                            "percentage": 0.058121
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "FUNDING_COST"
+                        },
+                        "detail": {
+                            "percentage": 0.0415
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "FINANCING_COST_STOCKHOLDER"
+                        },
+                        "detail": {
+                            "percentage": 0.0231
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "FUNDING_COST_ADJUSTED"
+                        },
+                        "detail": {
+                            "percentage": 0.0343
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "EFFICIENCY_COST"
+                        },
+                        "detail": {
+                            "percentage": 0.0307
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "REGULATORY_CAPITAL"
+                        },
+                        "detail": {
+                            "percentage": 0.15
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "ADDITIONAL_CAPITAL"
+                        },
+                        "detail": {
+                            "percentage": 0.0229
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "CAPITAL"
+                        },
+                        "detail": {
+                            "amount": 7573.02,
+                            "currency": "PEN"
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "OPPORTUNITY_COST"
+                        },
+                        "detail": {
+                            "percentage": 0.1336
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "EFFICIENCY_COST_FACTOR"
+                        },
+                        "detail": {
+                            "percentage": 0.432
+                        }
+                    },
+                    {
+                        "feeType": {
+                            "id": "TAX_RATE"
+                        },
+                        "detail": {
+                            "percentage": 0.3
+                        }
+                    }
+                ],
+                "model": {
+                    "id": "1"
+                },
+                "creationDate": "2020-05-20T13:53:34.494-0500",
+                "financialIndicators": [
+                    {
+                        "id": "TACTICAL_FACTOR",
+                        "value": "1.0"
+                    },
+                    {
+                        "id": "FUNDING_COST_TERM",
+                        "value": "540"
+                    },
+                    {
+                        "id": "FUNDING_COST_DATE",
+                        "value": "Mon Jul 01 00:00:00 PET 2019"
+                    },
+                    {
+                        "id": "CLUSTER",
+                        "value": "C1001"
+                    },
+                    {
+                        "id": "COLLECTIVE_FLAG",
+                        "value": "false"
+                    }
+                ],
+                "lastUpdateDate": "2020-05-20T13:53:34.192-0500"
+            }
+        ],
+        "lastUpdateDate": "2020-05-20T13:53:34.192-0500"
+    }
+}

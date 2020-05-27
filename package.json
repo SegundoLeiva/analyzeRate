@@ -1,0 +1,21 @@
+{
+  "name": "@quotation-components/cells-analize-rate-pfco",
+  "version": "1.0.0-rc.1",
+  "description": "",
+  "keywords": [],
+  "main": "cells-analize-rate-pfco.js",
+  "dependencies": {
+    "@bbva-web-components/bbva-button-default": "^1.1.0",
+    "@bbva-web-components/bbva-button-icon": "^3.0.0",
+    "@bbva-web-components/bbva-form-field": "^4.0.0",
+    "@bbva-web-components/bbva-form-textarea": "^3.0.0",
+    "@cells-components/cells-lit-helpers": "^1.0.0",
+    "@quotation-components/cells-panel-pfco": "git+ssh://git@globaldevtools.bbva.com:7999/pigho/cells-panel-pfco.git#1.1",
+    "lit-element": "^2.0.0"
+  },
+  "devDependencies": {
+    "@cells/cells-component-core": "^1.0.0",
+    "@quotation-components/cells-base-behavior-pfco": "git+ssh://git@globaldevtools.bbva.com:7999/pigho/cells-base-behavior-pfco.git#2.1",
+    "@quotation-components/cells-theme-pfco": "git+ssh://git@globaldevtools.bbva.com:7999/pigho/cells-theme-pfco.git#2.0"
+  }
+}
